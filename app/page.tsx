@@ -7,10 +7,10 @@ export default function Home() {
     <main className={styles.main}>
       <h1>Toggle</h1>
       <div className="blue-bar">
-      <ToggleSwitch Name="newsletter" />
-      <ToggleSwitch Name="daily" />
-      <ToggleSwitch Name="weekly" />
-      <ToggleSwitch Name="monthly" />
+        <ToggleSwitch name="newsletter" />
+        <ToggleSwitch name="daily" />
+        <ToggleSwitch name="weekly" />
+        <ToggleSwitch name="monthly" />
       </div>
     </main>
   );
